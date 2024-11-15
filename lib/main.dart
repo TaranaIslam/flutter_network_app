@@ -25,7 +25,7 @@ class HomeScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: const Text('Flutter Networking')),
+      appBar: AppBar(title: const Text('Flutter Networking App Example:')),
       body: Column(
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
@@ -41,7 +41,7 @@ class HomeScreen extends StatelessWidget {
               foregroundColor: Colors.white, // Set the text color
               padding: const EdgeInsets.symmetric(horizontal: 24, vertical: 12),
             ),
-            child: const Text('HTTP Example'),
+            child: const Text('HTTP Example:'),
           ),
           const SizedBox(height: 16), // Add space between buttons
           ElevatedButton(
@@ -56,7 +56,7 @@ class HomeScreen extends StatelessWidget {
               foregroundColor: Colors.white, // Set the text color
               padding: const EdgeInsets.symmetric(horizontal: 24, vertical: 12),
             ),
-            child: const Text('Chopper Example'),
+            child: const Text('Chopper Example:'),
           ),
         ],
       ),
